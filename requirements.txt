@@ -1,0 +1,8 @@
+streamlit==1.61.1
+numpy
+pypdf
+sentence-transformers
+faiss-cpu
+torch
+python-dotenv
+groq
