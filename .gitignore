@@ -1,0 +1,60 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.venv/
+env/
+Lib/
+Scripts/
+Include/
+etc/
+share/
+pyvenv.cfg
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+
+# =========================
+# Uploaded Documents
+# =========================
+data/documents/*.pdf
+data/*.pdf
+
+# =========================
+# Generated Vector Indexes
+# =========================
+vector_store/*.faiss
+vector_store/*.pkl
+data/indexes/*
+
+# Keep folder structure
+!data/indexes/.gitkeep
+!data/documents/.gitkeep
+!vector_store/.gitkeep
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
